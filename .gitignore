@@ -1,0 +1,16 @@
+# Временные файлы 1С
+*.tmp
+*.log
+*.cache
+*.1sb
+*.bak
+
+# Файлы выгрузки (если появятся)
+ConfigDumpInfo.xml
+
+# Папка с настройками EDT
+.1cedt/
+
+# Системные файлы Windows
+Thumbs.db
+desktop.ini
