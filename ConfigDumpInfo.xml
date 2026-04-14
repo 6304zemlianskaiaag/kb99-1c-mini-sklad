@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
+	<ConfigVersions>
+		<Metadata name="Catalog.Контрагенты" id="3121f64f-f7e3-4c96-bfa5-0dfd44cba4fb" configVersion="39b103745849e24eaecb2d192524c52c00000000"/>
+		<Metadata name="Catalog.Товары" id="cdc1b97c-ebde-4de5-af2c-778b4fb3a260" configVersion="7f8d7806c32c0543939842cf12069f0400000000"/>
+		<Metadata name="CommonModule.РаботаСДокументами" id="f09ed3dc-1fd5-434c-b516-423bf8a1538b" configVersion="627aee92a66c5346831e62a4c62f4c0c00000000"/>
+		<Metadata name="CommonModule.РаботаСДокументами.Module" id="f09ed3dc-1fd5-434c-b516-423bf8a1538b.0" configVersion="c45de8ed5610f746b0326970f3cf91d700000000"/>
+		<Metadata name="CommonPicture.МиниСклад" id="ade2a017-5711-49a9-a8b8-9cea8c684d33" configVersion="5b01285ae4d06b4ab72bc43ebb5ec26e00000000"/>
+		<Metadata name="CommonPicture.МиниСклад.Picture" id="ade2a017-5711-49a9-a8b8-9cea8c684d33.0" configVersion="26f39ec75d75dd49a2be714afd29abed00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="9fdfbe0a-d231-4366-a59b-d9f9f7311c9a" configVersion="4823378c805b864a83d2f455fa83bc7700000000"/>
+		<Metadata name="Document.Поступление" id="ed80e58a-597a-4b7b-9816-06f82c3c372f" configVersion="877243e4b9a4f34f8ccbb1db7bf4979000000000">
+			<Metadata name="Document.Поступление.TabularSection.Товары.Attribute.Количество" id="1e1012e3-69dd-4486-82a4-94fb79b574ff"/>
+			<Metadata name="Document.Поступление.TabularSection.Товары" id="4ee8a55d-69f8-49db-9cc6-2de9ee897260"/>
+			<Metadata name="Document.Поступление.TabularSection.Товары.Attribute.Номенклатура" id="829e203d-aa69-4fc1-8c61-e196c7611063"/>
+			<Metadata name="Document.Поступление.TabularSection.Товары.Attribute.Сумма" id="84c45c0f-b654-48bb-a80b-d252b2006a5f"/>
+			<Metadata name="Document.Поступление.Attribute.Контрагент" id="9e82fbb5-bb1f-4819-a08a-5a08b7cb1af1"/>
+			<Metadata name="Document.Поступление.TabularSection.Товары.Attribute.Цена" id="a10138df-3341-4c39-bd44-d493838b1307"/>
+		</Metadata>
+		<Metadata name="Document.Поступление.Form.ФормаДокумента" id="febb5dc9-4d36-4db8-8aa7-12621fd9a2a0" configVersion="dd5b055fe68c0c4e9a53b4191270552100000000"/>
+		<Metadata name="Document.Поступление.Form.ФормаДокумента.Form" id="febb5dc9-4d36-4db8-8aa7-12621fd9a2a0.0" configVersion="b163200c037c9d45838a7dbff81c678900000000"/>
+		<Metadata name="Document.Реализация" id="dfa0652e-fe1d-4b3c-8691-d1e02f74dd7f" configVersion="207fffa5eb1155449b952fb74d12b2a300000000">
+			<Metadata name="Document.Реализация.TabularSection.Товары.Attribute.цена" id="1ee8170d-524f-4b1a-81fa-6fa3dbcd8bd9"/>
+			<Metadata name="Document.Реализация.TabularSection.Товары.Attribute.Сумма" id="4893ae60-a1a7-4393-9e7c-b09298fdfd71"/>
+			<Metadata name="Document.Реализация.TabularSection.Товары" id="74d1ca18-5201-4df6-b631-286e3f42071c"/>
+			<Metadata name="Document.Реализация.Attribute.Контрагент" id="9bd9125c-32f4-4588-a685-355ede74b26c"/>
+			<Metadata name="Document.Реализация.TabularSection.Товары.Attribute.Номенклатура" id="bfea7e87-6284-4aa0-8243-8770f4e53837"/>
+			<Metadata name="Document.Реализация.TabularSection.Товары.Attribute.количество" id="ea2e6be3-e76b-4c54-861b-d02fe7a01780"/>
+		</Metadata>
+		<Metadata name="Document.Реализация.Form.ФормаДокумента" id="1b1e6a94-c063-49e1-a7ce-fd23d0e9b956" configVersion="0aa576aaf9fdfd4d8f4496be39dd98b500000000"/>
+		<Metadata name="Document.Реализация.Form.ФормаДокумента.Form" id="1b1e6a94-c063-49e1-a7ce-fd23d0e9b956.0" configVersion="17bbfeea73107648ba152f90891d78bc00000000"/>
+		<Metadata name="Language.Русский" id="6519ab1b-7c3e-46e5-9ca5-32cc06895237" configVersion="98af4ae0c8a6a44684a7e52f471afc8300000000"/>
+		<Metadata name="Subsystem.МиниСклад" id="8f08c0ce-d49a-41ce-adf4-ef76b50b4dae" configVersion="701bf2a471fa3345b720140f1dd9937500000000"/>
+		<Metadata name="Subsystem.МиниСклад.CommandInterface" id="8f08c0ce-d49a-41ce-adf4-ef76b50b4dae.1" configVersion="0bb7d036a30e324e87749660cea2e22500000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
