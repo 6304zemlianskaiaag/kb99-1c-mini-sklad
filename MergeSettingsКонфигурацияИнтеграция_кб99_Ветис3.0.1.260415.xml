@@ -1,0 +1,701 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.3/config/merge/settings" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" platformVersion="8.3.11">
+	<MainConfiguration>
+		<Name>Конфигурация</Name>
+	</MainConfiguration>
+	<SecondConfiguration>
+		<Name>Интеграция_кб99_Ветис</Name>
+		<Version>3.0.1.260415</Version>
+		<Vendor>https://kb99.pro</Vendor>
+	</SecondConfiguration>
+	<Parameters>
+		<ConfigurationsRelation>ConfigurationsNotRelated</ConfigurationsRelation>
+		<AllowMainConfigurationObjectDeletion>false</AllowMainConfigurationObjectDeletion>
+		<CopyObjectsMode>false</CopyObjectsMode>
+	</Parameters>
+	<Objects>
+		<Configuration>
+			<Properties>
+				<Property name="Name">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="Synonym">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="Vendor">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="Version">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="ManagedApplicationModule">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="SessionModule">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="UseManagedFormInOrdinaryApplication">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="ClientApplicationInterface">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="Copyright">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="VendorInformationAddress">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="ConfigurationInformationAddress">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="InterfaceCompatibilityMode">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="CompatibilityMode">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+			</Properties>
+		</Configuration>
+		<Object fullNameInSecondConfiguration="Subsystem.ТиповыеДокументы">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonPicture.ДокументПомеченНаУдалениеКоннекторЛево">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonPicture.ДокументЗаписанКоннекторЛево">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonPicture.ДокументПроведенКоннекторВерх">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonPicture.СправочникПВХПомеченНаУдалениеКоннекторЛево">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonPicture.СправочникПВХПомеченНаУдалениеКоннекторЛевоВерх">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonPicture.СправочникПВХПомеченНаУдалениеКоннекторЛевоНиз">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonPicture.ДокументПроведенКоннекторВерхНиз">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonPicture.ДокументПроведенКоннекторЛевоВерх">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonPicture.ДокументПроведенКоннекторЛевоНиз">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonPicture.ДокументПомеченНаУдалениеКоннекторВерх">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonPicture.ДокументПомеченНаУдалениеКоннекторВерхНиз">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonPicture.ДокументПомеченНаУдалениеКоннекторЛевоВерх">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonPicture.ДокументПомеченНаУдалениеКоннекторЛевоНиз">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonPicture.ДокументПомеченНаУдалениеКоннекторНиз">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonPicture.ДокументЗаписанКоннекторВерх">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonPicture.ДокументЗаписанКоннекторВерхНиз">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonPicture.ДокументЗаписанКоннекторЛевоВерх">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonPicture.ДокументЗаписанКоннекторЛевоНиз">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonPicture.ДокументЗаписанКоннекторНиз">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonPicture.СправочникПВХКоннекторВверх">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonPicture.СправочникПВХКоннекторВерхНиз">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonPicture.СправочникПВХКоннекторЛево">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonPicture.СправочникПВХКоннекторЛевоВерх">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonPicture.СправочникПВХКоннекторЛевоНиз">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonPicture.СправочникПВХКоннекторНиз">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonPicture.ДокументПроведенКоннекторЛево">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Interface.ВСД">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="SessionParameter.ТекущийПользователь">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="SessionParameter.ПараметрыКлиентаНаСервере">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Role.Администратор">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonTemplate.КомпонентаПечатиQRКода">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonTemplate.СтруктураПодчиненности">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="FilterCriterion.СвязанныеДокументы">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonModule.ДлительныеОперации">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonModule.ДлительныеОперацииКлиент">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonModule.ДлительныеОперацииВызовСервера">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonModule.УправлениеПечатью">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonModule.УправлениеКонтактнойИнформацией">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonModule.ОбщегоНазначения">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonModule.СтроковыеФункцииКлиентСервер">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonModule.ОбщегоНазначенияКлиентСервер">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonModule.СтандартныеПодсистемыСервер">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonModule.СтандартныеПодсистемыКлиент">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonModule.СтруктураПодчиненностиПереопределяемый">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonModule.ОбщегоНазначенияПовтИсп">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonModule.ДлительныеОперацииКлиентПовтИсп">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonModule.ВетИС_ПереопределенияСервер">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonModule.РаботаСФайламиКлиентСервер">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonModule.РаботаСФайламиСлужебныйВызовСервера">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonModule.РаботаСФайлами">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonModule.РаботаСФайламиСлужебный">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonModule.РаботаСФайламиСлужебныйКлиентСервер">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonModule.ЖурналРегистрации">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonModule.ЖурналРегистрацииКлиент">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonForm.СтруктураПодчиненности">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="CommonForm.ДлительнаяОперация">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullName="Catalog.Контрагенты">
+			<Properties>
+				<Property name="Comment">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="Hierarchical">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="CodeAllowedLength">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="InputByString">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="ObjectModule">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="IncludeHelpInContents">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="Help">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="BasedOn">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="DataLockControlMode">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="ObjectPresentation">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+				<Property name="ListPresentation">
+					<MergeRule>DoNotMerge</MergeRule>
+				</Property>
+			</Properties>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.Контрагенты.Attribute.НаименованиеПолное">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.Контрагенты.Attribute.ИНН">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.Контрагенты.Attribute.ГоловнойКонтрагент">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.Контрагенты.Attribute.Партнер">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.Номенклатура">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.Номенклатура.Attribute.Артикул">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.Номенклатура.Attribute.НаименованиеПолное">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.Организации">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.Организации.Attribute.Инн">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.Пользователи">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.Склады">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.Склады.Attribute.ИспользоватьОрдернуюСхемуПриОтгрузке">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.Партнеры">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.Партнеры.Attribute.ВСД_не_Выписываем">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.ДоговорыКонтрагентов">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.СерииНоменклатуры">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.СерииНоменклатуры.Attribute.ДатаПроизводства">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.СерииНоменклатуры.Attribute.ГоденДо">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.СтруктурныеЕдиницы">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.ВидыЦенПоставщиков">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.СпецификацииНоменклатуры">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.СкладыКомпании">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Catalog.ПодразделенияКомпании">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ПеремещениеТоваров">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ПеремещениеТоваров.Attribute.Комментарий">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ПеремещениеТоваров.Attribute.Организация">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ПеремещениеТоваров.Attribute.СкладОтправитель">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ПеремещениеТоваров.Attribute.СкладПолучатель">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ПеремещениеТоваров.TabularSection.Товары">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ПеремещениеТоваров.TabularSection.Товары.Attribute.Номенклатура">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ПеремещениеТоваров.TabularSection.Товары.Attribute.Количество">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ПеремещениеТоваров.TabularSection.Товары.Attribute.Цена">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ПеремещениеТоваров.TabularSection.Товары.Attribute.Сумма">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ПеремещениеТоваров.TabularSection.Товары.Attribute.Серия">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ПеремещениеТоваров.TabularSection.Товары.Attribute.ИдентификаторСтроки">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РеализацияТоваровУслуг">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РеализацияТоваровУслуг.Attribute.Контрагент">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РеализацияТоваровУслуг.Attribute.Организация">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РеализацияТоваровУслуг.Attribute.АдресДоставки">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РеализацияТоваровУслуг.Attribute.Комментарий">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РеализацияТоваровУслуг.Attribute.Договор">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РеализацияТоваровУслуг.Attribute.Склад">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РеализацияТоваровУслуг.Attribute.Партнер">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РеализацияТоваровУслуг.Attribute.Грузополучатель">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РеализацияТоваровУслуг.Attribute.ЗаказКлиента">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РеализацияТоваровУслуг.Form.ФормаДокумента">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РеализацияТоваровУслуг.TabularSection.Товары">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РеализацияТоваровУслуг.TabularSection.Товары.Attribute.Номенклатура">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РеализацияТоваровУслуг.TabularSection.Товары.Attribute.Количество">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РеализацияТоваровУслуг.TabularSection.Товары.Attribute.Цена">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РеализацияТоваровУслуг.TabularSection.Товары.Attribute.Сумма">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РеализацияТоваровУслуг.TabularSection.Товары.Attribute.Серия">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РеализацияТоваровУслуг.TabularSection.Товары.Attribute.ИдентификаторСтроки">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ПриобретениеТоваровУслуг">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ПриобретениеТоваровУслуг.Attribute.Контрагент">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ПриобретениеТоваровУслуг.Attribute.Партнер">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ПриобретениеТоваровУслуг.Attribute.ХозяйственнаяОперация">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ПриобретениеТоваровУслуг.Attribute.Склад">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ПриобретениеТоваровУслуг.TabularSection.Товары">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ПриобретениеТоваровУслуг.TabularSection.Товары.Attribute.Номенклатура">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ПриобретениеТоваровУслуг.TabularSection.Товары.Attribute.Количество">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ПриобретениеТоваровУслуг.TabularSection.Товары.Attribute.КоличествоУпаковок">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ПриобретениеТоваровУслуг.TabularSection.Товары.Attribute.Цена">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ПриобретениеТоваровУслуг.TabularSection.Товары.Attribute.Сумма">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.КорректировкаПриобретения">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.КорректировкаПриобретения.Attribute.Контрагент">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.КорректировкаПриобретения.Attribute.Организация">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.КорректировкаПриобретения.Attribute.Комментарий">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.КорректировкаПриобретения.TabularSection.Расхождения">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.КорректировкаПоступления">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.КорректировкаПоступления.Attribute.Контрагент">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.КорректировкаПоступления.Attribute.Организация">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.КорректировкаПоступления.Attribute.Комментарий">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.КорректировкаПоступления.TabularSection.Товары">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РасходнаяНакладная">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РасходнаяНакладная.TabularSection.Запасы">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РеализацияТоваров">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РеализацияТоваров.TabularSection.Товары">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ПеремещениеЗапасов">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ПоступлениеТоваровУслуг">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ПоступлениеТоваровУслуг.TabularSection.Товары">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.КорректировкаРеализации">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.КорректировкаРеализации.Attribute.Организация">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.КорректировкаРеализации.Attribute.ДокументРеализации">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.КорректировкаРеализации.Attribute.Контрагент">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.КорректировкаРеализации.Form.ФормаДокумента">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.КорректировкаРеализации.TabularSection.Товары">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.КорректировкаРеализации.TabularSection.Товары.Attribute.Номенклатура">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.КорректировкаРеализации.TabularSection.Товары.Attribute.КоличествоДоИзменения">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.КорректировкаРеализации.TabularSection.Товары.Attribute.Количество">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.КорректировкаРеализации.TabularSection.Товары.Attribute.ИдентификаторСтроки">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.КорректировкаРеализации.TabularSection.Товары.Attribute.Серия">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РасходныйОрдерНаТовары">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РасходныйОрдерНаТовары.Attribute.Комментарий">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РасходныйОрдерНаТовары.Attribute.ЗаданиеНаПеревозку">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РасходныйОрдерНаТовары.Attribute.Склад">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РасходныйОрдерНаТовары.TabularSection.ТоварыПоРаспоряжениям">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РасходныйОрдерНаТовары.TabularSection.ТоварыПоРаспоряжениям.Attribute.Распоряжение">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РасходныйОрдерНаТовары.TabularSection.ОтгружаемыеТовары">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РасходныйОрдерНаТовары.TabularSection.ОтгружаемыеТовары.Attribute.Номенклатура">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РасходныйОрдерНаТовары.TabularSection.ОтгружаемыеТовары.Attribute.Количество">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РасходныйОрдерНаТовары.TabularSection.ОтгружаемыеТовары.Attribute.Цена">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РасходныйОрдерНаТовары.TabularSection.ОтгружаемыеТовары.Attribute.Сумма">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.РасходныйОрдерНаТовары.TabularSection.ОтгружаемыеТовары.Attribute.Серия">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ЗаказКлиента">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ЗаказКлиента.Attribute.Контрагент">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ЗаказКлиента.Attribute.Организация">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ЗаказКлиента.Attribute.АдресДоставки">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ЗаказКлиента.Attribute.Договор">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ЗаказКлиента.Attribute.Склад">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ЗаказКлиента.Attribute.Партнер">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ЗаказКлиента.Attribute.Грузополучатель">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ЗаказКлиента.TabularSection.Товары">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ЗаказКлиента.TabularSection.Товары.Attribute.Номенклатура">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ЗаказКлиента.TabularSection.Товары.Attribute.Количество">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ЗаказКлиента.TabularSection.Товары.Attribute.Цена">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ЗаказКлиента.TabularSection.Товары.Attribute.Сумма">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ЗаказКлиента.TabularSection.Товары.Attribute.Серия">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ЗаказКлиента.TabularSection.Товары.Attribute.ИдентификаторСтроки">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ЗаданиеНаПеревозку">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Document.ЗаданиеНаПеревозку.Attribute.АвтомобильГосударственныйНомер">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="DataProcessor.ЖурналРегистрации">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="DataProcessor.ЖурналРегистрации.Form.ЖурналРегистрации">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="DataProcessor.ЖурналРегистрации.Form.ОтборЖурналаРегистрации">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="DataProcessor.ЖурналРегистрации.Form.РедакторСоставаСвойства">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="DataProcessor.ЖурналРегистрации.Form.Событие">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="DataProcessor.ЖурналРегистрации.Form.РазделениеДанныхСеанса">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="DataProcessor.ЖурналРегистрации.Command.ЖурналРегистрации">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="DataProcessor.ЖурналРегистрации.Command.ЖурналДоступаКДанным">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="InformationRegister.кб99_ОрганизацияПоУмолчанию">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="InformationRegister.кб99_ОрганизацияПоУмолчанию.Resource.Организация">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="InformationRegister.кб99_ОрганизацияПоУмолчанию.Dimension.Пользователь">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="InformationRegister.кб99_ОрганизацияПоУмолчанию.Form.ФормаЗаписи">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="InformationRegister.кб99_ОрганизацияПоУмолчанию.Form.ФормаСписка">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="InformationRegister.ШтрихкодыНоменклатуры">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="InformationRegister.ШтрихкодыНоменклатуры.Resource.Номенклатура">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="InformationRegister.ШтрихкодыНоменклатуры.Dimension.Штрихкод">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="InformationRegister.ПараметрыМаршрута">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="InformationRegister.ПараметрыМаршрута.Resource.НомерТС">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="InformationRegister.ПараметрыМаршрута.Dimension.Водитель">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="InformationRegister.ПараметрыМаршрута.Dimension.ЗаказПокупателя">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="AccumulationRegister.ТоварыНаСкладах">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="AccumulationRegister.ТоварыНаСкладах.Resource.Количество">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="AccumulationRegister.ТоварыНаСкладах.Dimension.Номенклатура">
+			<MergeRule>DoNotMerge</MergeRule>
+		</Object>
+	</Objects>
+</Settings>
