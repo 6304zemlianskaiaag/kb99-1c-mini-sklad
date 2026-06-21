@@ -14,3 +14,4 @@ ConfigDumpInfo.xml
 # Системные файлы Windows
 Thumbs.db
 desktop.ini
+"*.cf" 
